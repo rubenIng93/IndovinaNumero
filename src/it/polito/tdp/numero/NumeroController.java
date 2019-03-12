@@ -54,6 +54,8 @@ public class NumeroController {
 
 	@FXML
 	void handleProvaTentativo(ActionEvent event) {
+		
+		
 
 		// Leggi il valore del tentativo
 		String ts = txtTentativo.getText();
@@ -99,6 +101,8 @@ public class NumeroController {
 				boxControlloTentativi.setDisable(true);
 			}
 		}
+		
+		txtTentativo.clear();
 
 	}
 	
